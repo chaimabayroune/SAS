@@ -1,0 +1,4 @@
+le 10/11/21
+A cette journée, nous avons fait un quizz qui contient des questions dans Git et GitHub et Algorithme, langage C.
+Et puis nous avons cherché qu'est ce que langage C, son histoire et comment elle a été créée ?Et qui la créé?
+Et après avoir recueilli tout les informations sur lui, en nous le lisons.Enfin on fait quelques challenges. 
