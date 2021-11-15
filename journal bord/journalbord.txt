@@ -1,4 +1,14 @@
-le 10/11/21
+
+le 8/11/21
+le deuxieme jour,nous avons appris a telecharger Git et GitHub, et comment travallier avec eux ,
+en utilisant un documantation qui contient des videos et des etapes qui doivent etre suivies.
+En fin,nous avons vu l'aide de quelqu'un ,qui nous a onne des setais importants sur Git et GitHub au moyen de live
+En fin,nous avons vu l'aide de quelqu'un ,qui nous a onne des setais importants sur Git et GitHub au moyen de live.
+
+le 9/11/21
 A cette journée, nous avons fait un quizz qui contient des questions dans Git et GitHub et Algorithme, langage C.
-Et puis nous avons cherché qu'est ce que langage C, son histoire et comment elle a été créée ?Et qui la créé?
-Et après avoir recueilli tout les informations sur lui, en nous le lisons.Enfin on fait quelques challenges. 
+Et puis nois avons cherché qu'est ce que langage C, son histoire et comment elle a été créée ?Et qui la créé?
+Et après avoir recueilli tout les informations sur lui, en nous le lisons.Enfin on fait quelques challenges.
+
+
+
