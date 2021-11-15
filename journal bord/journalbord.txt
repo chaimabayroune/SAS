@@ -1,14 +1,22 @@
+le 8 /11/21
+Au debut de la premie jour,nous avons appris a nous connaitre avec une methode ce qui nous a approche et essaye de controle le stress pour devenir des amis .
+apres tout nous apprendre c'est quoi youcode et la facon utilise pour apprendre la programation.
 
-le 8/11/21
+le 9/11/21
 le deuxieme jour,nous avons appris a telecharger Git et GitHub, et comment travallier avec eux ,
 en utilisant un documantation qui contient des videos et des etapes qui doivent etre suivies.
 En fin,nous avons vu l'aide de quelqu'un ,qui nous a onne des setais importants sur Git et GitHub au moyen de live
-En fin,nous avons vu l'aide de quelqu'un ,qui nous a onne des setais importants sur Git et GitHub au moyen de live.
 
-le 9/11/21
+le 10/11/21
 A cette journée, nous avons fait un quizz qui contient des questions dans Git et GitHub et Algorithme, langage C.
-Et puis nois avons cherché qu'est ce que langage C, son histoire et comment elle a été créée ?Et qui la créé?
+Et puis nous avons cherché qu'est ce que langage C, son histoire et comment elle a été créée ?Et qui la créé?
 Et après avoir recueilli tout les informations sur lui, en nous le lisons.Enfin on fait quelques challenges.
 
+Le 11/11/21
+Ce jour -la,nous avons terminé  les challenges  difirent qui centient des type comme les variables 
+et datatype du langage c que nous fait hier, après nous avons utilisé application Discord 
+qui nous permis de travailler en groupe sur live coding et de faire tout le groupe.
 
-
+le12/11/21
+dernier jour de la premiere semaine, nous avons termine les challenges du conditions et nous avons appris les condition if...else
+ et apres-medi nous avous fait le live coding sur les challenge du variable et nous connaisser pleusieur information que nous ne savions pas.
