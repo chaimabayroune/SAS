@@ -12,6 +12,19 @@ A cette journée, nous avons fait un quizz qui contient des questions dans Git e
 Et puis nous avons cherché qu'est ce que langage C, son histoire et comment elle a été créée ?Et qui la créé?
 Et après avoir recueilli tout les informations sur lui, en nous le lisons.Enfin on fait quelques challenges.
 
+《Les commandes Git》
+*git init : nous utilisons cette commande  pour donner le dépôt initialise .
+*git config -- global user.name "name" : nous utilisons cette commande pour apporte la modification et qui la fait.
+*git config -- global user.email "email": nous utilisons cette commande pourdeclarer la email de l’editeur
+*git clone+(coler un lien dans GitHub)  : nous utilisons cette commande pour donner l'adresse qui nous vouons utiliser.
+* git history : nous utilisons cette commande pour donner les modification qui existe déjà et qui fait cette modification.
+{ Tout cette commandes est écrit une seul fois }
+*git add . : nous utilisons cette commande pour enregistrer tout ce que nous fait au modifier .
+*git commit _m : nous utilisons cette commande pour faire une déclaration  d'un message. 
+*git status : nous utilisons cette commande pour voir les changements de la modification. 
+*git log : nous utilisons cette commande pour nous donner deq informations sur les modification du projet et le nom, email,l'éditeur et aussi le jour,le mois,le temps, l'heure et enfin l'année. 
+*git push origin main : nous utilisons cette commande pour entrée commit qui nous déclaré avant.
+
 Le 11/11/21
 Ce jour -la,nous avons terminé  les challenges  difirent qui centient des type comme les variables 
 et datatype du langage c que nous fait hier, après nous avons utilisé application Discord 
