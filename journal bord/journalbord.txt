@@ -44,3 +44,10 @@ le 16/11/21
 ce jour-la nous avons fait le live coding sur les challenge sur les coditions et les variables et aussi un exercice qui permit par nos formateur et nous
 avons expliquer plus entre nos collége est coriger les ereures ,est aprés-midi nous avons fait une explication détaillé sur algorithme avec l'aide d'une
  groupe de nos college on a fait des jeux pour comprendre comment on peut utilliser algorithme car on deja fait le dans notre vie.
+
+Le 17/11/21
+Aujourd’huit nous avons fait quelque recherches sur langage C exactement les boucles , et après medi nous avons fait les challenges qui demander par 
+nos formateur qui nous donné plusieurs explications et des informations qui ne manque , et pour mieux comprendre, aussi pour améliorer mon niveaux
+ je regarder un vidéo sur youtube et j’ai coprendre qu’est ce que FOR(   ) , while (  ) et while for(   ).
+
+

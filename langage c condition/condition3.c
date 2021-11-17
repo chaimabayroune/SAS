@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
+
 
 int main()
 {
@@ -8,8 +8,6 @@ int main()
     printf("entrer la valeur de x:\n");
     scanf("%c", &x);
 
-    x=  tolower(x);
-    
     switch (x)
     {
     case 'a':
@@ -41,6 +39,39 @@ int main()
         break;
     }
     case 'y':
+    {
+        printf("le caractere est un voyelle");
+        break;
+    }
+    case 'A':
+    {
+        printf("le caractere est un voyelle");
+        break;
+    }
+
+    case 'O':
+    {
+        printf("le caractere est un voyelle");
+        break;
+    }
+
+    case 'E':
+    {
+        printf("le caractere est un voyelle");
+        break;
+    }
+
+    case 'I':
+    {
+        printf("le caractere est un voyelle");
+        break;
+    }
+    case 'U':
+    {
+        printf("le caractere est un voyelle");
+        break;
+    }
+    case 'Y':
     {
         printf("le caractere est un voyelle");
         break;
