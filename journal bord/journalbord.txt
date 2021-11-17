@@ -38,4 +38,9 @@ le 15/11/21
 le premier jour dans la duxieme semaine,on a travailler comme equipe sur les challenges et explicer plus sur que ne savions pas ,apres  nous avons
  savoir camment ne peut travailler sur git hub d'aprer une explication detaille et emeliorer nos nivaux,et on a fait une corection des faut et aussi nous
  avouns regarder le live webinaire dans la salle est nous canait plus des information sur pleusier chose sur domaine de pragramation
- ,et apres-medi nous avaons fait le quizz et 
+ ,et apres-medi nous avaons fait le quizz et ous avons relevé plusieurs erreurs,et que nous dever faire quelque chose a ce sujet.
+
+le 16/11/21
+ce jour-la nous avons fait le live coding sur les challenge sur les coditions et les variables et aussi un exercice qui permit par nos formateur et nous
+avons expliquer plus entre nos collége est coriger les ereures ,est aprés-midi nous avons fait une explication détaillé sur algorithme avec l'aide d'une
+ groupe de nos college on a fait des jeux pour comprendre comment on peut utilliser algorithme car on deja fait le dans notre vie.
