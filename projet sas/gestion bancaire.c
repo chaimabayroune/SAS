@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include<stdio.h>
+#include <string.h>
 
 //    declaration sruct:kifach nkteb bzaf dyal les type de variable dans case 1 dans un tableau;
 
@@ -13,9 +14,9 @@
    };
 
 //    type+nom de struct +nom de tableau=nomre de case;
-   struct compt bc[2000];
+struct compt bc[100];
 //   conteur qui nous donne les cases qui charger dans les tableaus 
-	int n_compt = 0 ;
+int n_compt = 0 ;
 // void ne utilliser pour ne retour pas ;	
 void creatcompt(){     //   pou creation dun seul compt	
     
@@ -28,6 +29,7 @@ void creatcompt(){     //   pou creation dun seul compt
 	printf("saisir votre montant:\n");
 	scanf("%d",&bc[n_compt].montant);
 	printf("le compte a ete cree avec succee \n\n");
+
 	n_compt++;
 	
 }
@@ -49,36 +51,74 @@ void creatncompt(){  //  pou cration de pleusiuer compts
 	scanf("%s",bc[n_compt].prenom);
 	printf("saisir votre montant:\n\n");
 	scanf("%d",&bc[n_compt].montant);
+    printf("CIN : %s\n",bc[n_compt].cin);
+    printf("NOM : %s\n",bc[n_compt].nom);
+    printf("Prenom : %s\n",bc[n_compt].prenom);
+    printf("Montant : %d\n",bc[n_compt].montant);
 	
 	n_compt++;
 	
 	}
+
 	printf("les comptes ont etes cree avec succees \n\n");
 }
 
 void retrait(){// pour retirer largent;
 	
-	int a;
+        int i , usermontant ;
+        char usercin[15];
+        int conter = n_compt ;
+
+        printf("entrer la valeur de cin: ");
+        scanf("%S", &usercin );
+ 
+    for ( i = 0 ; i < conter ; i++){
+
+        
+
+          if(strcmp(bc[i].cin , usercin) == 0 ){
+
+            printf("entrer la valeur de montant : ");
+            scanf("%d",&usermontant);
+
+
+          if(bc[i].montant < usermontant){
+              printf("ce montant est tres gros que largent qui dans ton compt");
+          }
+
+            bc[i].montant -= usermontant;
+            printf("%d",bc[i].montant);
+            break ;
+    }   
+}	
+}
+
+void depot(){// pour depot() largent;
 	
-	printf("donner le montant de retrais : ");
-	scanf("%d",&a);
-	printf("le montant avant le retrais  %d (DH) \n",bc[n_compt].montant);
-	bc[n_compt].montant-=a;
-	printf("le montant apres le retrais  %d (DH) \n",bc[n_compt].montant);
-	
+        int i , usermontant ;
+        char usercin[15];
+        int conter = n_compt ;
+
+        printf("entrer la valeur de cin: ");
+        scanf("%S", &usercin );
+ 
+    for ( i = 0 ; i < conter ; i++){
+
+        
+
+          if(strcmp(bc[i].cin , usercin) == 0 ){
+
+            printf("entrer la valeur de montant : ");
+            scanf("%d",&usermontant);
+
+            bc[i].montant += usermontant;
+            printf("%d",bc[i].montant);
+            break ;
+    }   
+}	
 }
 	
-void depot(){ // contraire;
-	
-	int a;
-	
-	printf("donner le montant de depot : ");
-	scanf("%d",&a);
-	printf("le montant avant le depot  %d (DH) \n",bc[n_compt].montant);
-	bc[n_compt].montant+=a;
-	printf("le montant apres le depot  %d (DH) \n",bc[n_compt].montant);  	   
-	 
-}   
+  
 
 int main()
 {
@@ -91,7 +131,7 @@ int main()
     printf("3 .Operations :  \n");
     printf("4 .Affichage  \n");
     printf("5 .Fidelisation  \n");
-    printf("6 .Quitter  \n");
+    printf("6 .Quitter  \n\n\n");
     printf("saisir le chois:");
 	scanf("%d",&choix);
 	
@@ -110,7 +150,7 @@ int main()
 		
 		case 3:
 			
-		printf("\n\n ** 3. Operations  **\n\n");
+		printf("\n\n * 3. Operations  *\n\n");
         int menuOperations ;
 
         printf("1. Retrait \n\n");
@@ -148,24 +188,21 @@ int main()
 		default:
 			printf("ce chois nest pas deriger");
 		}
-//		
-//		//afichage
-//		int i,j,j;
-//		
-//		for (i=0;i<x;i++){
-//			
-//			for (k=0;l<x+1;k++)
-//			
-//			if (T[i]=T[k+1]){
-//				j=T[k];
-//				T[i]=T[k+1];
-//				T[k+1]=j;
-//			}
-//			
-//		
-//		}
+		
+		//afichage
+//	int i,j,j;
 //	
+//		for (i=0;i<x;i++){
+//		
+//		for (k=0;l<x+1;k++)
+//			
+//			j=T[k];
+//			T[i]=T[k+1];
+//			T[k+1]=j;
+//		}
+//					
+//	}
+
 	
 	return 0;
-}	
-
+}
