@@ -50,4 +50,9 @@ Aujourd’huit nous avons fait quelque recherches sur langage C exactement les b
 nos formateur qui nous donné plusieurs explications et des informations qui ne manque , et pour mieux comprendre, aussi pour améliorer mon niveaux
  je regarder un vidéo sur youtube et j’ai coprendre qu’est ce que FOR(   ) , while (  ) et while for(   ).
 
+Le 23 ET 24/11/21
+L’autre jour et ce jour , j’ai fait que ce que vous m’avais demandé de fair,  j’ai analysé et compris ce que je devais faire et que dans le projet de sas je dois utillisé tous ce qui je l’ai étudiée dans la période de sas par exemple (variable, condition , fonction ,boucle…).
+Après j’ai commencé le programme de projet, j’ai fait le menu et principale, les operation, 
+la recherche par cin et apres demain j’ai contenuer le projet.
+
 
