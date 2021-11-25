@@ -1,208 +1,201 @@
-#include <stdlib.h>
 #include<stdio.h>
 #include <string.h>
 
-//    declaration sruct:kifach nkteb bzaf dyal les type de variable dans case 1 dans un tableau;
+ 
 
-  struct compt {
+  struct compte {
 	
- 	char cin[10];
-   	char nom[15];
-    char prenom[15];
-    int montant;
+ 	     char cin[10];
+   	     char nom[15];
+         char prenom[15];
+         int montant;
       
    };
 
-//    type+nom de struct +nom de tableau=nomre de case;
-struct compt bc[100];
-//   conteur qui nous donne les cases qui charger dans les tableaus 
-int n_compt = 0 ;
-// void ne utilliser pour ne retour pas ;	
-void creatcompt(){     //   pou creation dun seul compt	
-    
-	printf("\n saisir votre cin:\n");
-	scanf("%s",bc[n_compt].cin);
-	printf("saisir votre nom :\n");
-	scanf("%s",bc[n_compt].nom);
-	printf("saisir votre prenom :\n");
-	scanf("%s",bc[n_compt].prenom);
-	printf("saisir votre montant:\n");
-	scanf("%d",&bc[n_compt].montant);
-	printf("le compte a ete cree avec succee \n\n");
 
-	n_compt++;
+     struct compte bc[100];
+
+         int n_compte = 0 ;
+
+     void creatcompte(){     	
+    
+	         printf("\n saisir votre cin:\n");
+	         scanf("%s",bc[n_compte].cin);
+             printf("saisir votre nom :\n");
+	         scanf("%s",bc[n_compte].nom);
+	         printf("saisir votre prenom :\n");
+	         scanf("%s",bc[n_compte].prenom);
+	         printf("saisir votre montant:\n");
+	         scanf("%d",&bc[n_compte].montant);
+	         printf("le compte a ete cree avec succee \n\n");
+
+	 n_compte++;
 	
 }
 	
-void creatncompt(){  //  pou cration de pleusiuer compts
+     void creatncompte(){  
 	
-	int i,a;   //i pour inqrimantation est a pour donner les valeur de copmts;
+    	 int i,a;   
 	
-	printf("donner le nombre de compt vous voulez creer : ");
-	scanf("%d",&a);
+	         printf("donner le nombre de compte vous voulez creer : ");
+	         scanf("%d",&a);
 	
-	for (i=0;i<a;i++)
+	     for (i=0;i<a;i++)
 	{
-	printf("saisir votre cin:\n");
-	scanf("%s",bc[n_compt].cin);
-	printf("saisir votre nom :\n");
-	scanf("%s",bc[n_compt].nom);
-	printf("saisir votre prenom :\n");
-	scanf("%s",bc[n_compt].prenom);
-	printf("saisir votre montant:\n\n");
-	scanf("%d",&bc[n_compt].montant);
-    printf("CIN : %s\n",bc[n_compt].cin);
-    printf("NOM : %s\n",bc[n_compt].nom);
-    printf("Prenom : %s\n",bc[n_compt].prenom);
-    printf("Montant : %d\n",bc[n_compt].montant);
+	         printf("saisir votre cin:\n");
+	         scanf("%s",bc[n_compte].cin);
+	         printf("saisir votre nom :\n");
+	         scanf("%s",bc[n_compte].nom);
+	         printf("saisir votre prenom :\n");
+	         scanf("%s",bc[n_compte].prenom);
+	         printf("saisir votre montant:\n\n");
+	         scanf("%d",&bc[n_compte].montant);
+             printf("CIN : %s\n",bc[n_compte].cin);
+             printf("NOM : %s\n",bc[n_compte].nom);
+             printf("Prenom : %s\n",bc[n_compte].prenom);
+             printf("Montant : %d\n",bc[n_compte].montant);
 	
-	n_compt++;
+	 n_compte++;
 	
 	}
 
-	printf("les comptes ont etes cree avec succees \n\n");
+	         printf("les comptes ont etes cree avec succees \n\n");
 }
 
-void retrait(){// pour retirer largent;
+     void retrait(){
 	
-        int i , usermontant ;
-        char usercin[15];
-        int conter = n_compt ;
+         int i , usermontant ;
+         char usercin[15];
+         int conteur = n_compte ;
 
-        printf("entrer la valeur de cin: ");
-        scanf("%S", &usercin );
+             printf("entrer la valeur de cin: ");
+             scanf("%S", &usercin );
  
-    for ( i = 0 ; i < conter ; i++){
+     for ( i = 0 ; i < conteur ; i++){
 
-        
+         if(strcmp(bc[i].cin , usercin) == 0 ){
 
-          if(strcmp(bc[i].cin , usercin) == 0 ){
+             printf("entrer la valeur de montant : ");
+             scanf("%d",&usermontant);
 
-            printf("entrer la valeur de montant : ");
-            scanf("%d",&usermontant);
-
-
-          if(bc[i].montant < usermontant){
-              printf("ce montant est tres gros que largent qui dans ton compt");
+         if(bc[i].montant < usermontant){
+         	
+             printf("ce montant est tres gros que largent qui dans ton compte");
           }
 
-            bc[i].montant -= usermontant;
-            printf("%d",bc[i].montant);
-            break ;
+                  bc[i].montant -= usermontant;
+                 printf("%d",bc[i].montant);
+                 break ;
     }   
 }	
 }
 
-void depot(){// pour depot() largent;
+     void depot(){
 	
-        int i , usermontant ;
-        char usercin[15];
-        int conter = n_compt ;
+         int i , usermontant ;
+         char usercin[15];
+         int conteur = n_compte ;
 
-        printf("entrer la valeur de cin: ");
-        scanf("%S", &usercin );
+             printf("entrer la valeur de cin: ");
+             scanf("%S", &usercin );
  
-    for ( i = 0 ; i < conter ; i++){
+     for ( i = 0 ; i < conteur ; i++){
+     	
+         if(strcmp(bc[i].cin , usercin) == 0 ){
 
-        
+             printf("entrer la valeur de montant : ");
+             scanf("%d",&usermontant);
 
-          if(strcmp(bc[i].cin , usercin) == 0 ){
-
-            printf("entrer la valeur de montant : ");
-            scanf("%d",&usermontant);
-
-            bc[i].montant += usermontant;
-            printf("%d",bc[i].montant);
-            break ;
+             bc[i].montant += usermontant;
+             printf("%d",bc[i].montant);
+             break ;
     }   
 }	
+
 }
 	
-  
-
 int main()
 {
-	int choix;
-	reto:
-	printf("            menu :          ");
-	printf("\n\n Bonjour qu'est-ce que vous voulez : \n");
-    printf("1 .Creer un compte \n");
-    printf("2 .Introduire plusieur comptes bancaires :\n");
-    printf("3 .Operations :  \n");
-    printf("4 .Affichage  \n");
-    printf("5 .Fidelisation  \n");
-    printf("6 .Quitter  \n\n\n");
-    printf("saisir le chois:");
-	scanf("%d",&choix);
+	 int choix;
+	 reto:
+	     printf("            menu :          ");
+	     printf("\n\n Bonjour qu'est-ce que vous voulez : \n");
+         printf("1 .Creer un compte \n");
+         printf("2 .Introduire plusieur comptes bancaires :\n");
+         printf("3 .Operations :  \n");
+         printf("4 .Affichage  \n");
+         printf("5 .Fidelisation  \n");
+         printf("6 .Quitter  \n\n\n");
+         printf("saisir le chois:");
+	     scanf("%d",&choix);
 	
-	switch(choix)
+	 switch(choix)
 	{
 		
-		case 1:
-		   creatcompt();
-		   goto reto;
-		break;
-		
-		case 2:
-		   creatncompt();
-		   goto reto;
-		break;
-		
-		case 3:
-			
-		printf("\n\n * 3. Operations  *\n\n");
-        int menuOperations ;
-
-        printf("1. Retrait \n\n");
-        printf("2. Depot \n\n");
-        printf("3. retour a menu \n\n");
-
-        printf("donnez choix : ");
-        scanf("%d", &menuOperations);
-
-
-        switch (menuOperations){
-        case  1:
-            retrait();
-            goto reto;
-            break;
-        case  2:
-            depot();
-            goto reto;
-            break;
-        case  3:
-            goto reto;
-            break;
-        default:
-            printf("votre choix doit etre compris entre ( 1 et 3 )  : ");
-            goto reto;
-            break;
-        };
-		break;
-		
-			case 4:
-		     depot();
+		 case 1:
+		 	
+		      creatcompte();
 		     goto reto;
+		 break;
+		
+		 case 2:
+		 	
+		     creatncompte();
+		     goto reto;
+		 break;
+		
+		 case 3:
+			
+		     printf("\n\n * 3. Operations  *\n\n");
+		     
+         int menuOperations ;
+
+             printf("1. Retrait \n\n");
+             printf("2. Depot \n\n");
+             printf("3. retour a menu \n\n");
+
+             printf("donnez choix : ");
+             scanf("%d", &menuOperations);
+
+
+     switch (menuOperations){
+     	
+         case  1:
+         	
+             retrait();
+             goto reto;
+             break;
+             
+         case  2:
+         	
+             depot();
+             goto reto;
+             break;
+             
+         case  3:
+         	
+             goto reto;
+             break;
+             
+         default:
+            	
+             printf("votre choix doit etre compris entre ( 1 et 3 )  : ");
+             goto reto;
+             break;
+             
+        }
+		break;
+		
+		case 4:
+	     
+	     goto reto;
 		break;
 		
 		default:
-			printf("ce chois nest pas deriger");
+			printf("ce choix n est pas deriger");
+			break;
 		}
 		
-		//afichage
-//	int i,j,j;
-//	
-//		for (i=0;i<x;i++){
-//		
-//		for (k=0;l<x+1;k++)
-//			
-//			j=T[k];
-//			T[i]=T[k+1];
-//			T[k+1]=j;
-//		}
-//					
-//	}
-
 	
 	return 0;
 }
